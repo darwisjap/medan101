@@ -278,12 +278,12 @@
       <name>Chinese Food</name>
       <Placemark>
         <name>Rumah Makan SP 16</name>
-        <description><![CDATA[
-          Selat Panjang (translation: long strait) is the street name and indeed it has a long list of yums packed in one place. You can sit in any store - we recommend this one (air conditioned) - and order foods from any store. To try: bubur ayam pekcamke, ciongfan goreng, watfen (medan version of horfun), hokkien mie, nasi ayam hainan.<br>
-          <a href="https://www.google.com/maps?q=3.5833895,98.6846719" target="_blank">Open in Google Maps</a>
-        ]]></description>
+        <description>Selat Panjang (translation: long strait) is the street name and indeed it has a long list of yums packed in one place. You can sit in any store - we recommend this one (air conditioned) - and order foods from any store. To try: bubur ayam pekcamke, ciongfan goreng, watfen (medan version of horfun), hokkien mie, nasi ayam hainan.</description>
+        <styleUrl>#icon-1640-A52714-labelson</styleUrl>
         <Point>
-          <coordinates>98.6846719,3.5833895,0</coordinates>
+          <coordinates>
+            98.6846719,3.5833895,0
+          </coordinates>
         </Point>
       </Placemark>
       <Placemark>
