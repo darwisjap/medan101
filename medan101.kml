@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Medan 101</name>
+    <description>Your full guide to explore Medan based on our experience✌️NB: take note of opening hours</description>
+    <Style id="icon-1517-673AB7-nodesc-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1517-673AB7-nodesc-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1517-673AB7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1517-673AB7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1517-673AB7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1534-795548-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1534-795548-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1534-795548">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1534-795548-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1534-795548-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1567-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1567-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1567-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1567-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1567-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1567-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1567-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1567-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1567-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1567-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1602-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1602-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1602-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1640-A52714-labelson">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1709-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1709-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1709-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1709-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1709-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1709-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1709-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1709-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1709-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1709-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Chinese Food</name>
+      <Placemark>
+        <name>Rumah Makan SP 16</name>
+        <description>Selat Panjang (translation: long strait) is the street name and indeed it has a long list of yums packed in one place. You can sit in any store - we recommend this one (air conditioned) - and order foods from any store. To try: bubur ayam pekcamke, ciongfan goreng, watfen (medan version of horfun), hokkien mie, nasi ayam hainan.</description>
+        <styleUrl>#icon-1640-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            98.6846719,3.5833895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kwetiau Gedeh</name>
+        <description>Not the most strategic location and may need to queue a bit, but one plate of kwetiao here will definitely worth your calories.</description>
+        <styleUrl>#icon-1640-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            98.6872461,3.5846799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rumah Makan Tabona</name>
+        <description>For curry (and spicy) lovers, you should try beef and chicken curry here, served with beehoon.</description>
+        <styleUrl>#icon-1640-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            98.6815087,3.5817525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bihun Bebek Atak</name>
+        <description>Probably the healthiest option in this food list. They serve delicious herbal duck beehoon soup.</description>
+        <styleUrl>#icon-1640-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            98.6857926,3.5838851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mie Pangsit Tiong Sim Simp.</name>
+        <description>Someone tell us if you can find this noodle in SG!</description>
+        <styleUrl>#icon-1640-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            98.6857217,3.5844476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mie Pangsit AON</name>
+        <description>Team Helen: order thin noodle, Team Darwis: order thick noodle.</description>
+        <styleUrl>#icon-1640-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            98.6915371,3.5827497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakso Sapi AAN</name>
+        <description>Meatball is incomplete without sambal (hiamcio)</description>
+        <styleUrl>#icon-1640-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            98.6950347,3.5907721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Dimsum & Steamboat Babura (Dimsum Babura12)]]></name>
+        <description>Do we have leng hong kien in dimsum restaurant in SG?</description>
+        <styleUrl>#icon-1640-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            98.6675983,3.5756862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RM ANA</name>
+        <description>Favorite Zi Char place! To try: Tauco Udang, Yo Ci + egg (pork kidney), Samcan cabe rawit.</description>
+        <styleUrl>#icon-1640-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            98.6623562,3.5892998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Indo Food</name>
+      <Placemark>
+        <name>RM. Pondok Gurih</name>
+        <description><![CDATA[Nasi Padang 101: always dabao -->  cheaper, you got more, and for some reason banana leaves amplify the taste. Order from Grab and enjoy it in your hotel room.]]></description>
+        <styleUrl>#icon-1567-097138</styleUrl>
+        <Point>
+          <coordinates>
+            98.6834921,3.5801129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RM. Gumarang Jaya</name>
+        <description>Another nasi padang option, you can do taste test against Pondok Gurih</description>
+        <styleUrl>#icon-1567-097138</styleUrl>
+        <Point>
+          <coordinates>
+            98.683247,3.5804172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OnDo Grill Batak</name>
+        <description>Bataknese pork dishes here. Try: saksang babi, babi panggang, genjer, daun singkong.</description>
+        <styleUrl>#icon-1567-097138</styleUrl>
+        <Point>
+          <coordinates>
+            98.6600164,3.5984139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Snacks</name>
+      <Placemark>
+        <name>SATE PADANG RIZQI GUNAWAN</name>
+        <styleUrl>#icon-1567-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6848798,3.5841318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murni Martabak Piring</name>
+        <styleUrl>#icon-1567-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6846316,3.5838568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Warkop Agem Senyum Ketawa</name>
+        <styleUrl>#icon-1567-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6801306,3.5767871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>martabak pecenongan78 S Parman</name>
+        <styleUrl>#icon-1567-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6690471,3.5897244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Putu Bambu Asia Baru</name>
+        <styleUrl>#icon-1567-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6914533,3.5846492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jennifie Family's Choice]]></name>
+        <styleUrl>#icon-1567-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6707922,3.5858176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BIKA AMBON ATI</name>
+        <styleUrl>#icon-1567-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6673643,3.589334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Coffee</name>
+      <Placemark>
+        <name>Macehat Coffee</name>
+        <description>Try avocado coffee and local snacks. They have decent coffee beans readily available too.</description>
+        <styleUrl>#icon-1534-795548</styleUrl>
+        <Point>
+          <coordinates>
+            98.6694824,3.5920771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kedai Kopi Apek</name>
+        <description>Something to compare against Toastbox, Yakun, Funtoast.</description>
+        <styleUrl>#icon-1534-795548</styleUrl>
+        <Point>
+          <coordinates>
+            98.6772945,3.5874615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alligator Roastery</name>
+        <description>New and upcoming coffeeshop in town</description>
+        <styleUrl>#icon-1534-795548</styleUrl>
+        <Point>
+          <coordinates>
+            98.6797248,3.5785906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Thirty-Six</name>
+        <description>Local favorite cafe to hangout at</description>
+        <styleUrl>#icon-1534-795548</styleUrl>
+        <Point>
+          <coordinates>
+            98.6796987,3.5752286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coffeenatics X</name>
+        <description>Serious coffee culture here</description>
+        <styleUrl>#icon-1534-795548</styleUrl>
+        <Point>
+          <coordinates>
+            98.6818723,3.592923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bar</name>
+      <Placemark>
+        <name>Penthouse on 19th</name>
+        <styleUrl>#icon-1517-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6794131,3.5965588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SOHO Capital Medan</name>
+        <styleUrl>#icon-1517-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.676,3.5937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BISTRONOMIX</name>
+        <styleUrl>#icon-1517-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6765077,3.5958955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LIMA Rooftop Bar</name>
+        <styleUrl>#icon-1517-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6690403,3.6064606,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>No more food please!</name>
+      <Placemark>
+        <name>26 STUDIO</name>
+        <description>Nail Studio</description>
+        <styleUrl>#icon-1709-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            98.6943436,3.590513,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brow by Rachel</name>
+        <description>Eyelash extension</description>
+        <styleUrl>#icon-1709-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            98.6628446,3.5818003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Qi Wellness & Lifestyle - Percut]]></name>
+        <description>Massage</description>
+        <styleUrl>#icon-1709-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            98.695324,3.5932515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Putri Hijau Driving Range</name>
+        <styleUrl>#icon-1709-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6754679,3.6013983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tjong A Fie Mansion</name>
+        <description>Cultural experience (Medan Peranakan Museum)</description>
+        <styleUrl>#icon-1709-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            98.6802302,3.5853631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Where You Stay</name>
+      <Placemark>
+        <name>Grand City Hall Medan</name>
+        <styleUrl>#icon-1602-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            98.6769775,3.5903891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
