@@ -57,11 +57,11 @@
           center: { lat: 3.589974, lng: 98.676903 },
           zoom: 15,
         });
-
         const kmlLayer = new google.maps.KmlLayer({
           url: "https://darwisjap.github.io/medan101/medan101_colored.kml",  // Update if hosted elsewhere
           map: map,
           preserveViewport: false,
+          suppressInfoWindows: true  // ✅ suppress the default KML popups
         });
 
         kmlLayer.addListener("click", function (event) {
