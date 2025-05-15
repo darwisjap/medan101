@@ -5,7 +5,7 @@
       <IconStyle>
         <color>ff0000ff</color>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -13,7 +13,7 @@
       <IconStyle>
         <color>e10000ff</color>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -21,7 +21,7 @@
       <IconStyle>
         <color>c30000ff</color>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
         </Icon>
       </IconStyle>
     </Style>
