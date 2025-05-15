@@ -5,7 +5,7 @@
       <IconStyle>
         <color>ff0000ff</color>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/green-circle.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -43,7 +43,7 @@
     </Style>
     <Style id="No_more_food_please!">
       <IconStyle>
-        <color>690000ff</color>
+        <color>870000ff</color>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
         </Icon>
