@@ -275,12 +275,12 @@
           var marker = new google.maps.Marker({
             position: { lat: 3.5930051, lng: 98.6785430 },
             map: map,
-            title: 'Sate Padang Nasional',
+            title: 'Sate Nasional',
             icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
           });
           marker.customCategory = 'Snacks';
           marker.addListener('click', function() {
-            infowindow.setContent("<strong>Sate Padang Nasional</strong><br>Got a bit of space left after dinner? Don’t miss out on Sate Padang<br><a href='https://maps.app.goo.gl/V49aQxjS1izSfWuc8' target='_blank'>View on Google Maps</a>");
+            infowindow.setContent("<strong>Sate Nasional</strong><br>Got a bit of room left after dinner? Don’t miss out on Sate Padang! Take your pick from chicken, lamb (kambing), or cockle (kerang) satay—best enjoyed with lontong and crispy kerupuk<br><a href='https://maps.app.goo.gl/V49aQxjS1izSfWuc8' target='_blank'>View on Google Maps</a>");
             infowindow.open(map, marker);
           });
           markers.push(marker);
