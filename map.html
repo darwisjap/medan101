@@ -14,14 +14,16 @@
         top: 10px;
         left: 50%;
         transform: translateX(-50%);
-        background: white;
+        background-color: rgba(255, 255, 255, 0.95);
         padding: 10px 20px;
         border-radius: 8px;
         box-shadow: 0 2px 6px rgba(0,0,0,0.3);
         font-family: sans-serif;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bold;
-        z-index: 10;
+        z-index: 1000;
+        white-space: nowrap;
+      }
       #map {
         height: 100%;
         width: 100%;
@@ -53,7 +55,7 @@
     </style>
   </head>
   <body>
-    <div id="page-title">Medan Guide (check operating hour)</div>
+    <div id="page-title">📍 Medan Guide (check operating hour)</div>
     <div id="map"></div>
     <div id="legend">
       <strong>📌 Categories</strong><br/>
